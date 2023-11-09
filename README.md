@@ -48,6 +48,16 @@ Ce système comprend :
 
 ### 2.1 - Mise en place des feux de circulation
 
+Les feux de circulation peuvent fonctionner suivant trois modes : régulier, urgence et entretien.
+
+Le mode est défini par la position du potentiomètre :
+
+- Lorsque la position du potentiomètre est placée entre les valeurs 350 et 750 de l’ADC, le système fonctionne normalement,
+- Lorsque la position du potentiomètre est placée entre supérieur à 750 de l’ADC, le système laisse le passage aux véhicules d’urgence,
+- Lorsque la position du potentiomètre est placée entre inférieure à 350 de l’ADC, le système passe au mode clignotement pour tous les feux.
+
+#### 2.1.1 - Mode régulier (Séquence normale)
+
 FeuxAutos utilise le cycle rouge (1), vert (2) et jaune (3) :
 
 ![](img/cycle_sans_appel.png)
@@ -69,6 +79,14 @@ Pour les besoins de la simulation, les temps choisis sont :
 | 1B | 10 | Rouge | Rouge |
 | 2 | 30 | Vert | Rouge |
 | 3 | 5 | Jaune | Rouge |
+
+#### 2.1.2 - Mode urgence
+
+Pour permettre de céder le passage aux services d’urgence, tous les feux doivent être au rouge.
+
+#### 2.1.3 - Mode entretien
+
+Pour permettre aux services d’entretien et réparation de la chaussée, tous les feux doivent être en mode clignotement (1 Hz).
 
 ### 2.2. - Analyse statistique
 
