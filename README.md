@@ -68,7 +68,7 @@ Quand un piéton appuie sur le bouton d’appel, sa demande est mémorisée dans
 
 On voit ici que l’état 1 du cycle sans piéton a été transformé en deux états 1A et 1B.
 
-Si le feu automobile est rouge durant la pression du bouton de piéton, le piéton doit attendre la prochaine validation au début du prochain cycle.
+Lorsque le piéton demande un droit de passage (appuie sur un des deux boutons), le cycle auto doit se poursuivre jusqu'au prochain passage au rouge (état 1) avant le passage du cyle piéton (1A-1B-2-3).
 
 Pour les besoins de la simulation, les temps choisis sont :
 
@@ -90,11 +90,13 @@ Pour permettre aux services d’entretien et réparation de la chaussée, tous l
 
 ### 2.2. - Analyse statistique
 
-La municipalité veut connaître l'achalandage des piétons dans les rues et propose comme première approche de pouvoir afficher le pourcentage de nombre de cycle piéton par rapport au nombre de cycle automobile.
+La municipalité veut connaître l'achalandage des piétons dans les rues et propose comme première approche de pouvoir afficher le pourcentage de nombre de cycle piéton par rapport au nombre de cycle automobile. Un cycle piéton est compté au début du cycle piéton, un cycle auto est compté au début du cycle auto.
 
-Ce pourcentage ne doit pas être réinitialisé à chaque redémarrage du système de contrôle de l'artaire de circulation.
+Le calcul du pourcentage est défini comme le ratio entre le nombre total de cycles piéton par rapport au nombre total de cycle auto, traduit en pourcentage. Par exemple, 10% indique que sur 100 cycles autos, il y a eu 10 cycles piéton.
 
-Dans votre document d'analyse, vous devez expliqué comment vous vous y prenez pour résoudre ce problème et vous devez aussi expliquer quelles sont les limites de votre système.
+Ce pourcentage ne doit pas être réinitialisé à chaque redémarrage du système de contrôle de l'artère de circulation.
+
+Dans votre document d'analyse, vous devez expliquer comment vous vous y prenez pour résoudre ce problème et vous devez aussi expliquer quelles sont les limites de votre système.
 
 Vous devez trouver un moyen d'afficher facilement le pourcentage au démarrage du système et sur demande. Vous devez également trouver un moyen de réinitialiser le pourcentage à 0.
 
