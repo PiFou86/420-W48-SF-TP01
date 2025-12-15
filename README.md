@@ -126,13 +126,13 @@ Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règl
 1. Document de présentation du projet : (Contexte : 15%, Circuit : 20%, Coût : 5% = 40%)
    - Contexte du projet (5%)
    - Planification, attribution des tâches (5%)
-   - Schéma du circuit électronique (10%)
+   - Schéma du circuit électronique (5%)
    - Dessin de montage sur plaque de circuit (5%)
-   - Diagramme de classes UML (10%)
+   - Diagramme de classes UML (8%)
    - Inventaire des pièces avec estimation des coûts (3%)
    - Estimation énergétique : durée de vie des batteries / consommation si sur secteur (2%)
-   - Explication de la méthode de persistance des données statistiques et calcul des limites (5%)
-   - Explication de la méthode d'affichage et de réinitialisation des statistiques
+   - Explication de la méthode de persistance des données statistiques et calcul des limites (4%)
+   - Explication de la méthode d'affichage et de réinitialisation des statistiques (3%)
 
 2. Vidéo de présentation (Présentation : 3%, Explication : 4%, Fonctionnement : 3% = 10%)
    - Projet
@@ -145,12 +145,12 @@ Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règl
 3. Registre des heures consacrées au projet (5%). Le registre contient la liste des activités et le temps consacré à chaque activité, identifiées par participant concerné. Format suggéré : tableau avec colonnes (Date, Participant, Activité, Durée). Le total des heures doit être indiqué pour chaque participant.
 
 4. Code (45% au total)
-   - Cycle régulier automobile (états 1, 2, 3) : 8%
-   - Cycle piéton (états 1A, 1B) avec gestion des appels : 12%
-   - Mode urgence (transition et fonctionnement) : 5%
-   - Mode entretien (transition et fonctionnement) : 5%
-   - Gestion du potentiomètre et changement de modes : 5%
-   - Analyse statistique (comptage, calcul, affichage) : 8%
+   - Cycle régulier automobile (états 1, 2, 3) : 7%
+   - Cycle piéton (états 1A, 1B) avec gestion des appels : 7%
+   - Mode urgence (transition et fonctionnement) : 4%
+   - Mode entretien (transition et fonctionnement) : 4%
+   - Gestion du potentiomètre et changement de modes : 3%
+   - Analyse statistique (comptage, calcul, affichage) : 3%
    - Persistance des données (sauvegarde/restauration) : 7%
    - Qualité du code (structure, POO, commentaires, normes) : 10%
 
