@@ -125,14 +125,14 @@ Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règl
 
 1. Document de présentation du projet : (Contexte : 15%, Circuit : 20%, Coût : 5% = 40%)
    - Contexte du projet (5%)
-   - Planification, attribution des tâches (5%)
+   - Planification, attribution des tâches (2%)
    - Schéma du circuit électronique (5%)
    - Dessin de montage sur plaque de circuit (5%)
    - Diagramme de classes UML (8%)
    - Inventaire des pièces avec estimation des coûts (3%)
    - Estimation énergétique : durée de vie des batteries / consommation si sur secteur (2%)
-   - Explication de la méthode de persistance des données statistiques et calcul des limites (4%)
-   - Explication de la méthode d'affichage et de réinitialisation des statistiques (3%)
+   - Explication de la méthode de persistance des données statistiques et calcul des limites (5%)
+   - Explication de la méthode d'affichage et de réinitialisation des statistiques (5%)
 
 2. Vidéo de présentation (Présentation : 3%, Explication : 4%, Fonctionnement : 3% = 10%)
    - Projet
@@ -150,7 +150,7 @@ Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règl
    - Mode urgence (transition et fonctionnement) : 4%
    - Mode entretien (transition et fonctionnement) : 4%
    - Gestion du potentiomètre et changement de modes : 3%
-   - Analyse statistique (comptage, calcul, affichage) : 3%
+   - Analyse statistique (comptage, calcul, affichage, réinitilisation) : 3%
    - Persistance des données (sauvegarde/restauration) : 7%
    - Qualité du code (structure, POO, commentaires, normes) : 10%
 
