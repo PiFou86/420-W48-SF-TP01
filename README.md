@@ -4,7 +4,7 @@
 
 ### 1.1 - Déroulement du TP
 
-- Remise du travail: mercredi 7 janvier 2025, 23:59
+- Remise du travail: mercredi 7 janvier 2026, 23:59
 - Ce travail est réalisé en équipe de 2 membres et seuls les membres de cette équipe y contribuent
 - Vous devez utiliser votre dépôt Git pour faire votre travail : si une situation particulière est détectée, vos commits moduleront votre note dans le groupe
 - Il en va de même pour le fichier Word contenant le rapport final du TP. Il doit être édité en collaboration via Sharepoint/Teams pour que l'historique des modifications puisse être consulté.
@@ -63,7 +63,7 @@ Le mode est défini par la position du potentiomètre :
 - Lorsque la position du potentiomètre est supérieure à 750 de l'ADC, le système passe en mode urgence,
 - Lorsque la position du potentiomètre est inférieure à 350 de l'ADC, le système passe en mode entretien.
 - Le système doit constamment surveiller la position du potentiomètre pour détecter les changements de mode et réagir en conséquence.
-- Il faut tenir compte de l'hystérésis pour éviter les changements de mode fréquents lorsque le potentiomètre est proche des seuils.
+- Il faut tenir compte de l'hystérésis pour éviter les changements de mode fréquents lorsque le potentiomètre est proche des seuils. Une marge de ±10 unités ADC doit être appliquée autour des seuils pour stabiliser la détection des modes.
 
 #### 2.1.1 - Mode régulier (Séquence normale)
 
@@ -123,28 +123,41 @@ Vous devez trouver un moyen d'afficher facilement le pourcentage au démarrage d
 
 Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règle pourra être modifiée sur accord avec les formateurs. Dans ce dernier cas, le document doit indiquer les tâches respectives que chaque personne aura faites.
 
-1. Document de présentation du projet : (Contexte : 15%, Circuit : 20%, Coût : 5% = 40%)
-   - Contexte du projet (5%)
+1. Document de présentation du projet : 40% au total
+   - Page de présentation (titre, auteurs, date, standard Cégep) et structure document : 2%
+   - Contexte du projet (3%)
    - Planification, attribution des tâches (2%)
    - Schéma du circuit électronique (5%)
    - Dessin de montage sur plaque de circuit (5%)
-   - Diagramme de classes UML (8%)
+   - Diagramme de classes UML (5%)
    - Inventaire des pièces avec estimation des coûts (3%)
    - Estimation énergétique : durée de vie des batteries / consommation si sur secteur (2%)
+   - Estimation du courant utilisé par I/O et validation de la capacité du MCU (2%)
    - Explication de la méthode de persistance des données statistiques et calcul des limites (5%)
-   - Explication de la méthode d'affichage et de réinitialisation des statistiques (5%)
+   - Explication de la méthode d'affichage et de réinitialisation des statistiques (3%)
+   - Devis de tests manuels (3%)
 
-2. Vidéo de présentation (Présentation : 3%, Explication : 4%, Fonctionnement : 3% = 10%)
-   - Projet
-   - Circuit
-   - Feux / boutons
-   - Pièces
-   - Les différents états / séquences
-   - Statistiques
+2. Vidéo de présentation : 10% au total
+   - Explication du schéma et du montage (2%)
+     - Présentation du circuit
+     - Présentation du montage sur plaque de circuit
+   - Explication globale du code (4%)
+     - Gestion des modes et transitions
+     - Gestion des cycles de feux
+     - Gestion des appels piétons
+     - Persistance des données
+     - Affichage des statistiques
+   - Démonstration du fonctionnement des 3 modes (2%)
+     - Mode régulier avec et sans appel piéton
+     - Mode urgence
+     - Mode entretien
+   - Statistiques (redémarrage, affichage et réinitialisation) (2%)
 
-3. Registre des heures consacrées au projet (5%). Le registre contient la liste des activités et le temps consacré à chaque activité, identifiées par participant concerné. Format suggéré : tableau avec colonnes (Date, Participant, Activité, Durée). Le total des heures doit être indiqué pour chaque participant.
+3. Registre des heures consacrées au projet : 5%
 
-4. Code (45% au total)
+Le registre contient la liste des activités et le temps consacré à chaque activité, identifiées par participant concerné. Format suggéré : tableau avec colonnes (Date, Participant, Activité, Durée). Le total des heures doit être indiqué pour chaque participant.
+
+4. Code : 45% au total
    - Cycle régulier automobile (états 1, 2, 3) : 7%
    - Cycle piéton (états 1A, 1B) avec gestion des appels : 7%
    - Mode urgence (transition et fonctionnement) : 4%
@@ -153,6 +166,8 @@ Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règl
    - Analyse statistique (comptage, calcul, affichage, réinitilisation) : 3%
    - Persistance des données (sauvegarde/restauration) : 7%
    - Qualité du code (structure, POO, commentaires, normes) : 10%
+
+Toute utilisation de la fonction delay() entraîne un zéro à la fonctionnalité concernée.
 
 ### 3.2 - Critères appliqués durant l'évaluation
 
