@@ -102,11 +102,11 @@ Dans votre document d'analyse, vous devez expliquer comment vous vous y prenez p
 
 Vous devez trouver un moyen d'afficher facilement le pourcentage au démarrage du système et sur demande. Vous devez également trouver un moyen de réinitialiser le pourcentage à 0.
 
-## 2 - Détail de l'évaluation
+## 3 - Détail de l'évaluation
 
-### 2.1 - Répartition des points
+### 3.1 - Répartition des points
 
-Vous pourrez faire le travail individuellement ou en équipe de 2 personnes, au maximum. Cette règle pourra être modifiée sur accord avec les formateurs. Dans ce dernier-cas, le document doit indiquer les tâches respectives que chaque personne aura fait.
+Vous pourrez faire le travail en équipe de 2 personnes, au maximum. Cette règle pourra être modifiée sur accord avec les formateurs. Dans ce dernier-cas, le document doit indiquer les tâches respectives que chaque personne aura fait.
 
 1. Document de présentation du projet : (Contexte : 15%, Circuit : 20%, Coût : 5% = 40%)
    - Contexte du projet
@@ -129,7 +129,7 @@ Vous pourrez faire le travail individuellement ou en équipe de 2 personnes, au 
 3. Registre des heures consacrées au projet (5%). Le registre contient la liste des activités et le temps consacré à chaque activité et identifié au participant concerné
 4. Code (Cycles : 20%, Appels : 10%, Achalandage : 15% = 45%)
 
-### 2.2 - Critères appliqués durant l'évaluation
+### 3.2 - Critères appliqués durant l'évaluation
 
 L'évaluation du travail est effectuée par les enseignants de l'UE en se basant sur :
 
@@ -179,7 +179,7 @@ Tout partage de code, d'explications, de bouts de texte, etc. est considéré co
 
 Si vous utilisez un code donné en cours, n'oubliez pas de référencer son origine dans votre code.
 
-## 3 - Matériel dans l’inventaire de l’entreprise
+## 4 - Matériel dans l’inventaire de l’entreprise
 
 Le budget se limite au matériel. Le temps alloué et le temps de montage sur plaque de circuit est exclus. Tous les prix sont fictifs.
 
