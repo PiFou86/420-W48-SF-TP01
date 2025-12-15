@@ -9,6 +9,11 @@
 
 - Lien du dépôt : 
 
+## Équipe
+
+- Nom de l'équipe : 
+- Numéro de l'équipe dans Teams : 
+
 ## Liens de la vidéo de présentation
 
 - Lien YouTube #1 :
