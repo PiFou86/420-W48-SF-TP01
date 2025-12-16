@@ -263,3 +263,5 @@ Il est conseillé d'utiliser les bibliothèques du cours suivantes :
 - [UtilifyEEPROM](https://registry.platformio.org/libraries/sirdrako/UtilifyEEPROM) : Gestion simplifiée de la mémoire EEPROM (N'oubliez pas de définir `#define OVERRIDE_EEPROM_MAX_WRITES_PER_BLOCK 2` à une valeur appropriée dans votre code avant d'inclure la bibliothèque)
 - [UtilifyLogger](https://registry.platformio.org/libraries/sirdrako/UtilifyLogger) : Journalisation des événements pour Arduino
 - [UtilifyAnalogInput](https://registry.platformio.org/libraries/sirdrako/UtilifyAnalogInput) : Gestion des entrées analogiques avec filtrage (Joystick, potentiomètre, etc.)
+
+![Pas de temps pour innover !](img/pas_temps_innovation.png)
