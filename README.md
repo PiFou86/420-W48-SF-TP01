@@ -17,7 +17,8 @@
 
 ### 1.2 - À remettre sur la plateforme d'enseignement Léa
 
-- Un document word contenant le détail du projet
+- Un document word contenant le détail du projet. Ce document doit être édité en collaboration via Sharepoint/Teams. Le document de base doit être celui déjà contenu dans votre canal Teams/Sharepoint nommé `Dossier_TP01.docx`. Une pénalité de 10 points sera appliquée si ce n'est pas respecté.
+- Le registre des heures consacrées au projet, inclus dans le document word (avec les totaux par participant)
 - Votre code source C++ avec la structure de PlatformIO
 - Vous devez fournir le lien d'une vidéo de 5 minutes illustrant le circuit, le code et le fonctionnement :
   - La vidéo doit être déposée sur YouTube
