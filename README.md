@@ -106,7 +106,7 @@ En mode entretien, tous les feux (FeuAutos et FeuPiétons) doivent clignoter rou
 
 #### 2.1.4 - Démo
 
-[![Youtube Video](https://github.com/user-attachments/assets/fc3da97b-6697-4178-9c68-9abd1690151f)](https://youtu.be/8aGVZ9gCH-c)
+[![Démonstration TP01 - Youtube Video](<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/fe571b19-7e8a-49e8-ab53-d2903e6867c3" />)](https://youtu.be/8aGVZ9gCH-c)
 
 ### 2.2 - Analyse statistique
 
