@@ -104,6 +104,10 @@ En mode entretien, tous les feux (FeuAutos et FeuPiétons) doivent clignoter rou
 
 **Transition** : Lorsque le potentiomètre passe en mode entretien, le système doit immédiatement activer le clignotement, interrompant le cycle en cours. Au retour en mode régulier, le système reprend un nouveau cycle automobile (état 1).
 
+#### 2.1.4 - Démo
+
+[![Youtube Video](https://github.com/user-attachments/assets/fc3da97b-6697-4178-9c68-9abd1690151f)](https://youtu.be/8aGVZ9gCH-c)
+
 ### 2.2 - Analyse statistique
 
 La municipalité veut connaître l'achalandage des piétons dans les rues et propose comme première approche de pouvoir afficher le pourcentage du nombre de cycles piétons par rapport au nombre de cycles automobiles. Un cycle piéton est compté au début du cycle piéton, un cycle auto est compté au début du cycle auto.
